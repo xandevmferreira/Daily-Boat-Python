@@ -27,7 +27,7 @@ app.layout = html.Div([
 
         html.Br(),
         html.Label('Prioridade'),
-        dcc.RadioItems(['Baixa', 'Média', 'Baixa'], ''),
+        dcc.RadioItems(['Baixa', 'Média', 'Alta'], ''),
     ], style={'padding': 10, 'flex': 1}),
 
         html.Br(),
