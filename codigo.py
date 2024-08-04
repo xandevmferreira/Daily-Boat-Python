@@ -8,8 +8,14 @@ app.layout = html.Div([
         dcc.Dropdown(['Fulando da Silva', 'Siclano Ferreira', 'Raimundo Nonato'], 'Fulano da Silva'),
 
         html.Br(),
-        html.Label('Saúde mental'),
-        dcc.Dropdown(['Depressão', 'Autismo', 'TDAH'],
+        html.Label('Hipótese Diagnóstica'),
+        dcc.Dropdown(['Neurótico Obsessivo', 'Neurótico Histérico', 'Psicose','Perversão'],
+                     [],
+                     multi=True),
+
+html.Br(),
+        html.Label('Hipótese Diagnóstica Psiquiátrica'),
+        dcc.Dropdown(['Depressão','Ansiedade generalizada', 'Transtorno de Humor Afetivo Bipolar', 'Paranóia','Boderline', 'Fobia', 'Autismo', 'TDAH', 'TOD'],
                      [],
                      multi=True),
 
