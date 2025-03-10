@@ -12,6 +12,7 @@ app.layout = html.Div([
 
         html.Br(),
         html.Label('Hipótese Diagnóstica'),
+        # CORREÇÃO AQUI: Removido o comando pip freeze erroneamente colado
         dcc.Dropdown(
             options=['Neurótico Obsessivo', 'Neurótico Histérico', 'Psicose','Perversão'],
             value=[],
